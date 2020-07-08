@@ -490,5 +490,4 @@ Ks=rho.*vel.^2/1e6;
 gamma=alpha.*Ks./rho./Cp*1e6;
 Kt=  Ks.*(1 + alpha*gamma.*T).^(-1) ;
 
-
 end
